@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de la Empresa</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("activo");
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <a href="index.html" class="logo"><img src="imagen/logo.jpg"  <alt="Logo de la empresa"></a>
+        <h1>Tintal Rojo</h1>
+
+        <!-- Menú de navegación -->
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes_somos.html">Quienes Somos</a></li>
+                <li><a href="productos.html">Catalogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de la empresa -->
+    <main>
+        <section id="empresa" class="contenedor">
+            <div class="izquierda">
+                <img src="quienessomos.jpg" width="300" height="300"/> <alt="Imagen de la empresa">
+            </div>
+            <div class="derecha">
+                <h2>Sobre Nosotros</h2>
+                <p>En <strong>Tintal Rojo</strong>, <p> Nos dedicamos a la elaboracion y venta de productos derivados del achiote, resaltando la riqueza de nuestros sabores tradicionales y el legado cultural de nuestra tierra.
+
+Nos comprometemos a trabajar con ingredientes sostenibles y procesos artesanales, apoyando a productores locales y fomentando un comercio justo. A traves de nuestro amor por el achiote, buscamos inspirar a las personas a redescubrir los sabores autenticos y valorar la esencia de nuestra cultura en cada platillo.<p/>
+
+            </div>
+        </section>
+
+        <!-- Misión, Visión y Valores -->
+        <section id="info-empresa">
+            <div class="info-box">
+                <h2>Mision</h2>
+                <p>
+
+Nuestra mision es ofrecer productos autenticos y de alta calidad que no solo enriquecen la gastronomia de nuestros clientes, sino que tambien transmiten historias de tradicion y pasion por lo natural.</p>
+            </div>
+            <div class="info-box">
+                <h2>Vision</h2>
+                <p>Ser la empresa lider en la comercializacion de productos derivados del achiote, reconocida por su calidad, autenticidad y sabor inigualable.
+
+Aspiramos a llevar el achiote y sus beneficios a nuevos mercados nacionales e internacionales, destacando su importancia en la gastronomia y cultura tradicional.
+
+Nos esforzamos por innovar sin perder nuestras raices, promoviendo practicas sostenibles y fomentando el comercio justo con productores locales.
+
+Queremos ser un motor de desarrollo para las comunidades dedicadas al cultivo del achiote, preservando su legado y asegurando que cada producto cuente una historia unica, llena de tradicion y pasion.</p>
+            </div>
+            <div class="info-box">
+                <h2>Valores</h2>
+                <ul>
+                    <li>Calidad</li>
+                    <li>Tradicion</li>
+                    <li>Sostenibilidad</li>
+                    <li>Compromiso</li>
+                    <li>Innovacion</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Barro Artesanal. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/profile.php?id=61573802382315" target="_blank">Facebook</a> |
+            <a href="https://x.com/RojoTintal2025" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/tintal_rojo?igsh=N2djemFsMms4aWc2" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto:tintalrojo@gmail.com</p>
+    </footer>
+
+</body>
+</html>
